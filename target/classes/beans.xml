@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--对象名小写  通过bean标签创建一个bean对象，名字叫 "hello" , 单例-->
+    <bean id="hello" class="com.spring.hello.Hello"></bean>
+<!--自闭合标签<bean/>-->
+
+
+
+</beans>
